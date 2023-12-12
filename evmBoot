@@ -1,0 +1,44 @@
+This is an on-chain boot system. "The Real Web3"® must be build in a way that any Web2 resource can disappear. For this reason,
+I make extensive use of IPFS and Vanilla Javascript which does not require any sort of server. 
+
+This address contains specially crafted code that can be read directly from Polygonscan.
+
+https://polygonscan.com/tx/0x959d231f08fe87ea9c867638357846a144076d783af15d6d5e75a4f71894ffd0
+
+The code is:
+
+document.open('text/html');
+document.write(`<!DOCTYPE HTML><html><head><meta http-equiv=Content-Type content=text/html;
+charset=utf-8></head> <body> <div id=root> <form action="" id="freeTalkSearch"> <h1>freeTalk search page</h1><input type="text" id="search" class="form-control" placeholder="Enter your search term..."> <button type="submit">Submit</button> </form> <div id=result></div> </div> </body></html>`);
+document.close();
+fetch("https://unpkg.com/ethers@6.9.0/dist/ethers.umd.min.js")
+.then( x => x.text())
+.then( x => eval(x) );
+f = new Array();
+setTimeout(() => { u = {};
+u.internalType = "string";
+u.name = "";
+u.type = "string";
+v = [ u ]; w = "map";
+y = "function";
+aa = {}; aa.inputs = v;
+aa.name = "map";
+aa.outputs = v;
+aa.stateMutability = "view";
+aa.type = "function";
+z = [ aa ];
+comma = String.fromCharCode(44);
+provider = ethers.getDefaultProvider(137);
+args = '"0x0076416C84c7151CaEfA74C3e09d6eBF2f296BA0"' + comma;
+args += 'z' + comma;
+args += 'provider' + comma;
+f.contract = eval(`new ethers.Contract(${args})`); }
+1000);
+a = document.getElementById("freeTalkSearch"); b = document.getElementById("search");
+a.addEventListener("submit"
+(e) => { e.preventDefault();
+f.contract.map(b.value)
+.then(r => { f.payload = r;
+result.innerHTML = "<pre>" + r + "</pre>";
+}) });
+
