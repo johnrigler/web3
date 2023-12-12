@@ -13,3 +13,5 @@ My latest completed IPFS effort is located here:
 https://ipfs.io/ipfs/QmczV3z6vU6Nqyg8psxmrahbaEhM8eRER65yjbZWNstB6p/?evalFile=start.js
 
 Again, these solutions don't particularly lend themselves to Github.  
+
+<img src=qrField.png>
