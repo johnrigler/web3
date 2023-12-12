@@ -3,6 +3,10 @@ I make extensive use of IPFS and Vanilla Javascript which does not require any s
 
 This address contains specially crafted code that can be read directly from Polygonscan.
 
+I am moving away from even using a smart contract to generate this, and so my permanent boot location would be:
+
+https://polygonscan.com/address/0x1111111111111111111111111111111111111111
+
 https://polygonscan.com/tx/0x959d231f08fe87ea9c867638357846a144076d783af15d6d5e75a4f71894ffd0
 
 The code is:
