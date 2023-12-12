@@ -12,6 +12,10 @@ My latest completed IPFS effort is located here:
 
 https://ipfs.io/ipfs/QmczV3z6vU6Nqyg8psxmrahbaEhM8eRER65yjbZWNstB6p/?evalFile=start.js
 
-Again, these solutions don't particularly lend themselves to Github.  
+Again, these solutions don't particularly lend themselves to Github, but I think you guys
+get the point. I will include some images. 
+
+This is "qrField", it runs in your browser and generates a random field of qr-coded hex numbers.
+By putting 4 together, you get a single EVM private key. This is a paper wallet solution.
 
 <img src=qrField.png>
